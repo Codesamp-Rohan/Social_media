@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(35deg, #000000, #618fe5, #cfcfcf);
+    background: linear-gradient(35deg, #000000, #6639ba, #cfcfcf);
 }
 
 .card {
@@ -64,7 +64,7 @@ body {
     align-content: flex-end;
     flex-wrap: wrap;
     padding-bottom: 40px;
-    transform: translateY(155px);
+    transform: translateY(125px);
     transition: 0.5s;
 }
 
@@ -118,7 +118,7 @@ body {
     outline: none;
     font-size: 1rem;
     font-weight: 500;
-    background: #0077b5;
+    background: #6639ba;
     color: white;
     cursor: pointer;
 }
