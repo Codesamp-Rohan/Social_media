@@ -11,21 +11,35 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(35deg, #000000, #618fe5, #cfcfcf);
+    overflow: hidden;
+    background-color: #000;
+    /* background-image: url("https://images.alphacoders.com/699/699287.jpg"); */
 }
+
+.bodyImg {
+    position: absolute;
+    filter: brightness(0.7);
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+}
+
+/* .bodyImg {} */
 
 .card {
     position: relative;
     width: 350px;
     height: 230px;
     border-radius: 20px;
-    background-color: white;
+    /* background-color: white; */
     transition: 0.5s;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
 }
 
 .card:hover {
@@ -84,7 +98,7 @@ body {
 }
 
 .details span {
-    color: #000000;
+    color: #ffffff;
     font-size: 0.85rem;
     font-weight: 800;
     opacity: 0.7;
@@ -137,8 +151,9 @@ body {
 
 .goBack {
     text-decoration: none;
-    color: #151515;
+    color: #ffffff;
     filter: opacity(0.8);
+
 }
 
 @media screen and (max-width: 1100px) {
